@@ -1,42 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
+    <meta charset="utf-8" />
+    <title>Curriculum Vitae</title>
+ <link href="style.css" rel="stylesheet">
+  </head>
   <body>
-   
-    <div class="gameboard" >
+    <h1>
+      English CV
+    </h1>
     
- <table>
+    <form action="https://www.google.fr/search " method="GET">
+      
+      <div>
+        <input type="text" id="search" name="q" required placeholder="Search...">
+    </div>
+      <div class="cherche">
+        <button type="submit">Chercher</button>
+    </div>
+
+</form>
+    
+    <section id="1">
+      
+      <figure> <img src="https://cdn.glitch.com/2cdcb399-537c-4c00-a212-9f88064f9872%2Fimg1.jpg?1553157160449" alt="uvsq" width="150" height="150"> </figure>
+      
+      <h2>Données Personnels:</h2> 
+      
+        <ul id="data">
+          <li>Joran ROBIN </li>
+          <li>26</li>
+          <li>Adresse</li>
+          <li>Guyancourt - France </li>
+          <li>Phone : 06…</li>
+          <li>E-mail : joran.robin@gmail.com</li>
+        </ul>
+
+
+    </section>
+            
+    
+    
+    <section id="2">
+      
+      <h2>Parcours</h2>
+      
+      <nav>
+        <ul >
+       <li id="nav-ed"><a href="#ed">Education</a></li>
+       <li id="nav-deg"><a href="#deg">Degrees</a></li>
+       <li id="nav-hob"><a href="#hob">Hobbies</a></li>
+      </ul>
+      </nav>
+      
+      <article id="ed">
+      <h2>Education</h2>
+        
+        <hr>
+        
+        <ul>
+          
+        <li>Nov. – Dec 2018    Development of a Rogue-Like’s game with Eclipse</li>
+        <li>Versailles, France  </li>       
+
+        
+        <li>Jan. – June 2018   Development of a directed graph manipulation application with C++/Qt</li>
+        
+        <li>Versailles, France </li>        
+
+        
+        <li> Oct. – Dec 2017    Development of a video games website with WAMP</li>
+        
+       
+        <li>Versailles, France </li>
+          
+          </ul>
+      
+      </article>
+      
+     
+      <article id="deg">
+      <h2>Degrees</h2>
+        
+        <hr>
+        
+        
+      <table>
    
         <tr class="tr1">
-          <td> colonne 1 case 1</td>
-          <td> colonne 2 case 1</td>
+          <td>2017-2018</td>
+          <td> Bachelor's Degree</td>
         </tr>
         
         <tr class="tr2">
-            <td > colonne1 case 1 </td>
-          <td > colonne2 case 2 </td>
-        </tr>
-   
-        <tr class="tr3">
-            <td >colonne 1 case 1</td>
-          <td >colonne 2 case 2</td>
+            <td colspan="2">Versailles - France Université de Versailles Saint-Quentin-En-Yvelines</td>
         </tr>
 
 </table>
-    
-    
-    </div>
-    <script src="https://button.glitch.me/button.js"></script>
+          
+    <ul>
+      <li>Languages: 
+      <ul>
+          
+        <li>English : Basic</li>
+		    <li>Spanish : Basic</li>
+        <li>French : Native<br></li>
+          
+      </ul>
+        
+      </li>
+
+      <li>Computer Skills :
+        
+      <ul>
+         <li>Word, Excel, PowerPoint,Photoshop</li>
+        <li>Programming Language(C/C++/Java), Web Language(HTML/CSS/PHP)
+	    Git/Bitbucket,Unit Test,Maven</li>
+      </ul>
+
+       
+      
+      </li>
+        
+      </ul>  
+      
+        
+      </article>
+      
+     
+      <article id="hob">
+      <h2>Hobbies</h2>
+       
+        <hr>
+        
+      <ul>
+        
+        <li>Sports: Football,Skateboard<br></li>
+        
+        <li>Travel: Europe(Spain,Italy,Belgium,Netherlands,Germany)<br>
+          
+                    USA(Miami,Los Angeles,Las Vegas,San Diego)<br></li>
+        
+        <li> Hobbies: Cinema,TV Shows,Music,Video Games,Computer Science</li>
+        
+      </ul>
+          
+      </article>  
+    </section>
   </body>
 </html>
+
