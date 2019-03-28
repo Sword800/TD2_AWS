@@ -56,7 +56,7 @@ function play(column)
     }
     else{
     
-      board[row][column] = turn;
+      set(row,column,turn);
       
     if(turn == 2)
     {
